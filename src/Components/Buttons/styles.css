@@ -1,0 +1,18 @@
+.button-container {
+  border: 1px solid #04d361;
+  border-radius: 4px;
+  display: flex;
+  min-width: 120px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Mono";
+}
+
+.button-container:hover {
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}

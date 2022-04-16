@@ -1,0 +1,21 @@
+.card-container {
+  background: #171228;
+  max-width: 440px;
+  border: 1px solid #873eff;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card-image {
+  max-width: 400px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+}
+
