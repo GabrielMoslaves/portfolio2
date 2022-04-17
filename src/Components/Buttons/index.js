@@ -10,7 +10,8 @@ function Button({
   fontSize,
   padding,
   width,
-  href
+  href = "href"
+  
 }) {
   return (
     <a
@@ -25,8 +26,7 @@ function Button({
         width,
         href
       }}
-      className="button-container"
-    >
+      className="button-container">
       {children}
     </a>
   );
