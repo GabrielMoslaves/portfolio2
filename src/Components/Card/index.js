@@ -1,7 +1,7 @@
 import "./styles.css";
 import Titles from "../Titles";
 import Text from "../Text";
-import Button from "../Buttons";
+
 
 function Card({ img, heading, text, children }) {
   return (

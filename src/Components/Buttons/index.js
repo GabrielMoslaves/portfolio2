@@ -10,7 +10,7 @@ function Button({
   fontSize,
   padding,
   width,
-  href = "href"
+  href="href"
   
 }) {
   return (
@@ -24,8 +24,10 @@ function Button({
         fontSize,
         padding,
         width,
-        href
-      }}
+      
+      }} 
+      href={href}
+      target="_blank"
       className="button-container">
       {children}
     </a>
