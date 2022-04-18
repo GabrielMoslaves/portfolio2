@@ -12,8 +12,7 @@ function Presentation() {
         Projetos concluídos<br/> como  desenvolvedor Front-End
       </Titles>
       <Text fontFamily="DM Sans, sans-serif" color="#AEAEAE">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
-        ligula, accumsan nec cursus in, eleifend sit amet dui.
+        Nesta sessão estão todos os projetos, pessoais e profissionais, que desenvolvi, usando diferentes linguagens e frameworks
       </Text>
     </div>
   );

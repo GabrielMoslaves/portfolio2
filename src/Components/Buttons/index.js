@@ -30,7 +30,7 @@ function Button({
       }} 
       href={href}
       target="_blank"
-      className={"button-container"} >
+      className={"button-container " + className} >
       {children}
     </a>
   );

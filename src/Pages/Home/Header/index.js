@@ -13,14 +13,12 @@ function Header() {
           <Button
             className="github-button"
             href="https://github.com/GabrielMoslaves"
-            padding="0 10px"
             fontWeight={600}
           >
             MEU GITHUB
           </Button>
           <Button
             className="site-button"
-            padding="0 10px"
             backgroundColor="#04d361"
             color="black"
             fontWeight={600}
