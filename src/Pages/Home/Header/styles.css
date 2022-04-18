@@ -10,6 +10,13 @@
   gap: 10px;
 }
 
-.entersite {
-  padding: 8px;
+.github-button {
+  background-color: red;
 }
+
+@media screen and (max-width: 530px) {
+  .header-container {
+    gap:20px;
+  }
+}
+

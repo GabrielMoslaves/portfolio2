@@ -10,8 +10,17 @@ function Header() {
           <Logoimg />
         </div>
         <div className="header-right">
-          <Button href='https://github.com/GabrielMoslaves' width={150} fontWeight={600}>MEU GITHUB </Button>
-          <Button width={150}      
+          <Button
+            className="github-button"
+            href="https://github.com/GabrielMoslaves"
+            padding="0 10px"
+            fontWeight={600}
+          >
+            MEU GITHUB
+          </Button>
+          <Button
+            className="site-button"
+            padding="0 10px"
             backgroundColor="#04d361"
             color="black"
             fontWeight={600}
