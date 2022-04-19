@@ -12,6 +12,6 @@ body {
 @media screen and (max-width:700px) {
 body {
   background-image: url('./Images/wallpapercelphone.jpg');
-  background-repeat: no-repeat;
+  
 }
 }
