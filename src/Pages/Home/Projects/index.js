@@ -4,7 +4,8 @@ import frontacademy from "../../../Images/frontacademy.png";
 import gamerapp from "../../../Images/gamerapp.png";
 import catalogofilmes from "../../../Images/catalogofilmes.png";
 import Button from "../../../Components/Buttons";
-import codelandia from "../../../Images/codelandia 4.png"
+import codelandia from "../../../Images/codelandia 4.png";
+import codelandia19 from "../../../Images/codelandia 19.png";
 
 function Projects() {
   return (
@@ -15,10 +16,20 @@ function Projects() {
         text=" Curso de capacitação para desenvolvedores em react, react native, javascript, html, css e desenvolvimento frontend."
       >
         <div className="card-buttons">
-          <Button href='https://www.frontacademy.com.br/' backgroundColor="#04D361" color="#0E091B" fontWeight={700}>
+          <Button
+            href="https://www.frontacademy.com.br/"
+            backgroundColor="#04D361"
+            color="#0E091B"
+            fontWeight={700}
+          >
             SITE
           </Button>
-          <Button fontWeight={700}>REPOSITÓRIO</Button>
+          <Button
+            href="https://github.com/brunolucena/front-academy"
+            fontWeight={700}
+          >
+            REPOSITÓRIO
+          </Button>
         </div>
       </Card>
 
@@ -29,21 +40,35 @@ function Projects() {
       treinar habilidades em HTML, CSS e JavaScript"
       >
         <div className="card-buttons">
-          <Button href='https://catalogofilmes-mfwn16rhq-gabrielmoslaves.vercel.app/'backgroundColor="#04D361" color="#0E091B" fontWeight={700}>
+          <Button
+            href="https://catalogofilmes-mfwn16rhq-gabrielmoslaves.vercel.app/"
+            backgroundColor="#04D361"
+            color="#0E091B"
+            fontWeight={700}
+          >
             SITE
           </Button>
-          <Button fontWeight={700}>REPOSITÓRIO</Button>
+          <Button
+            href="https://github.com/GabrielMoslaves/catalogofilmes"
+            fontWeight={700}
+          >
+            REPOSITÓRIO
+          </Button>
         </div>
       </Card>
 
       <Card
-    
         img={gamerapp}
         heading="GamerApp"
         text="Plataforma interativa para compra e trade de jogos online, de forma simples e rápida."
       >
         <div className="card-buttons">
-          <Button href='https://gamerapp.com.br/' backgroundColor="#04D361" color="#0E091B" fontWeight={700}>
+          <Button
+            href="https://gamerapp.com.br/"
+            backgroundColor="#04D361"
+            color="#0E091B"
+            fontWeight={700}
+          >
             SITE
           </Button>
           <Button fontWeight={700}>REPOSITÓRIO</Button>
@@ -56,10 +81,42 @@ function Projects() {
         text="Desafio numero 4 da Codelandia que desenvolvi para treinar habilidades em JavaScript e fundamentos de React Hooks"
       >
         <div className="card-buttons">
-          <Button href='https://codelandia-desafio-4-ten.vercel.app/' backgroundColor="#04D361" color="#0E091B" fontWeight={700}>
+          <Button
+            href="https://codelandia-desafio-4-ten.vercel.app/"
+            backgroundColor="#04D361"
+            color="#0E091B"
+            fontWeight={700}
+          >
             SITE
           </Button>
-          <Button fontWeight={700}>REPOSITÓRIO</Button>
+          <Button
+            href="https://github.com/GabrielMoslaves/codelandia-desafio-4"
+            fontWeight={700}
+          >
+            REPOSITÓRIO
+          </Button>
+        </div>
+      </Card>
+      <Card
+        img={codelandia19}
+        heading="Desafio 19 - Codelandia"
+        text="Desafio numero 4 da Codelandia que desenvolvi para treinar habilidades em TypeScript e SASS"
+      >
+        <div className="card-buttons">
+          <Button
+            href="https://codelandia19.vercel.app/"
+            backgroundColor="#04D361"
+            color="#0E091B"
+            fontWeight={700}
+          >
+            SITE
+          </Button>
+          <Button
+            href="https://github.com/GabrielMoslaves/Codelandia19"
+            fontWeight={700}
+          >
+            REPOSITÓRIO
+          </Button>
         </div>
       </Card>
     </div>

@@ -22,8 +22,9 @@ function Header() {
             backgroundColor="#04d361"
             color="black"
             fontWeight={600}
+            href="mailto:gabrielmoslaves@gmail.com"
           >
-            ENTRAR NO SITE
+            CONTATO
           </Button>
         </div>
       </div>
